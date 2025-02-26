@@ -1,32 +1,34 @@
+# -*- coding: utf-8 -*-
+
 import streamlit as st
 
 def show_team_info():
-    st.header("? ÆÀ ¼Ò°³")
+    st.header("? íŒ€ ì†Œê°œ")
     
-    st.subheader("¿ì¸® ÆÀÀÇ ¸ñÇ¥")
-    st.write("AI Ãªº¿À» È°¿ëÇÑ È¿À²ÀûÀÎ ÇĞ½À Áö¿ø ½Ã½ºÅÛ ±¸Ãà")
+    st.subheader("ìš°ë¦¬ íŒ€ì˜ ëª©í‘œ")
+    st.write("AI ì±—ë´‡ì„ í™œìš©í•œ íš¨ìœ¨ì ì¸ í•™ìŠµ ì§€ì› ì‹œìŠ¤í…œ êµ¬ì¶•")
     
-    st.subheader("? ÆÀ¿ø ¼Ò°³ ¹× ¿ªÇÒ")
+    st.subheader("? íŒ€ì› ì†Œê°œ ë° ì—­í• ")
     
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.markdown("**È«±æµ¿**")
-        st.markdown("- ÇÁ·ÎÁ§Æ® ¸®´õ")
-        st.markdown("- Gemini AI ÅëÇÕ")
+        st.markdown("**í™ê¸¸ë™**")
+        st.markdown("- í”„ë¡œì íŠ¸ ë¦¬ë”")
+        st.markdown("- Gemini AI í†µí•©")
         
     with col2:
-        st.markdown("**±èÃ¶¼ö**")
-        st.markdown("- ÇÁ·ĞÆ®¿£µå °³¹ß")
-        st.markdown("- UI/UX µğÀÚÀÎ")
+        st.markdown("**ê¹€ì² ìˆ˜**")
+        st.markdown("- í”„ë¡ íŠ¸ì—”ë“œ ê°œë°œ")
+        st.markdown("- UI/UX ë””ìì¸")
         
     with col3:
-        st.markdown("**ÀÌ¿µÈñ**")
-        st.markdown("- ¹é¿£µå °³¹ß")
-        st.markdown("- µ¥ÀÌÅÍº£ÀÌ½º °ü¸®")
+        st.markdown("**ì´ì˜í¬**")
+        st.markdown("- ë°±ì—”ë“œ ê°œë°œ")
+        st.markdown("- ë°ì´í„°ë² ì´ìŠ¤ ê´€ë¦¬")
 
-# ¸ŞÀÎ ¾Û¿¡¼­ È£Ãâ
+# ë©”ì¸ ì•±ì—ì„œ í˜¸ì¶œ
 if __name__ == "__main__":
-    st.set_page_config(page_title="AI ÇĞ½À µµ¿ì¹Ì", layout="wide")
+    st.set_page_config(page_title="AI í•™ìŠµ ë„ìš°ë¯¸", layout="wide")
     show_team_info()
-    # ³ª¸ÓÁö ¾Û ·ÎÁ÷...
+    # ë‚˜ë¨¸ì§€ ì•± ë¡œì§...
